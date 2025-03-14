@@ -1,0 +1,8 @@
+config:
+  aws:region: us-east-1
+  aws:profile: default
+  domain: zelar.one
+  subdomain: dev
+  pulumi:autonaming:
+    pattern: "${project}-${stack}-${name}"
+    enforce: true

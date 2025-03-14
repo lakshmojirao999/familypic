@@ -1,0 +1,13 @@
+name: quickstart
+description: typescript day`
+runtime:
+  name: nodejs
+  options:
+    packagemanager: npm
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-typescript
+  # pulumi:autonaming:
+  #   value:
+  #     mode: verbatim      
